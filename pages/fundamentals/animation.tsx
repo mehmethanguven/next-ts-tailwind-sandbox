@@ -5,7 +5,7 @@ const Animation = () => {
     <div>
       <Card
         title="animation"
-        className="text-3xl text-blue-500 dark:text-white"
+        className="text-2xl text-slate-700 dark:text-white"
         isBack={true}
       />
       <Card>

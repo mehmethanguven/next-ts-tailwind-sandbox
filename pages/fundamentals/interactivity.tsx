@@ -3,7 +3,7 @@ import Card from '@/components/Card'
 const Interactivity = () => {
   return (
     <div>
-      <Card title="interactivity" className="text-3xl" isBack={true} />
+      <Card title="interactivity" className="text-2xl" isBack={true} />
       <div id="topDiv"></div>
       <Card title="scroll smooth to bottom">
         <a

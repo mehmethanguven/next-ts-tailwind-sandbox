@@ -6,7 +6,7 @@ const ContainerAndSpacing = () => {
       <Card
         title="Container and Spacing"
         isBack={true}
-        classNameTitle="text-3xl text-blue-500 dark:text-white"
+        classNameTitle="text-2xl text-slate-700 dark:text-white"
       />
       <Card className="bg-slate-500">
         <p>

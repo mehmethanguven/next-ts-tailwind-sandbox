@@ -86,25 +86,25 @@ const lists: IListItem[] = [
 const Page = () => {
   return (
     <div className="bg-gray-50 dark:bg-slate-900">
-      <div className="container mx-auto h-full p-6 dark:bg-slate-900">
+      <div className="container h-full p-6 mx-auto dark:bg-slate-900">
         <Card
-          title="Tailwind CSS Sandbox"
-          classNameTitle="text-blue-500 text-3xl text-center mt-4 dark:text-white dark:bg-slate-900"
+          title="Tailwindcss Sandbox"
+          classNameTitle="text-slate-700 text-2xl text-center mt-4 dark:text-white dark:bg-slate-900"
         >
-          <div className="mt-4 grid grid-cols-1 gap-5 dark:bg-slate-900 md:grid-cols-3">
+          <div className="grid grid-cols-1 gap-5 mt-4 dark:bg-slate-900 md:grid-cols-3">
             {(lists || []).map(
               (
                 {
                   title,
                   href,
-                  className = 'text-blue-500 hover:text-blue-300 dark:text-white',
+                  className = 'text-slate-700 hover:text-slate-500 dark:text-white',
                 },
                 id
               ) => (
                 <Card key={id} className="dark:bg-slate-900">
                   <Link
                     className={
-                      (clsx('text-blue-500 hover:text-blue-300'), className)
+                      (clsx('text-slate-700 hover:text-slate-500'), className)
                     }
                     href={href}
                   >

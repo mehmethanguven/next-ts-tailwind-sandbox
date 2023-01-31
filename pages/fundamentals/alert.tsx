@@ -16,7 +16,7 @@ const Alert = () => {
       <Card title="utility first example" isBack={true}></Card>
       <Card
         className="mx-auto mt-10 flex h-80 max-w-md flex-col items-center justify-center"
-        classNameTitle="text-center text-3xl text-blue-500 dark:text-white"
+        classNameTitle="text-center text-2xl text-slate-700 dark:text-white"
       >
         <div className="flex items-center gap-3">
           <Image

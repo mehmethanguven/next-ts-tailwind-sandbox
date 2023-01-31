@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Columns = () => (
   <div>
-    <Card title="column layouts" className="text-3xl" isBack={true} />
+    <Card title="column layouts" className="text-2xl" isBack={true} />
     <Card title="column-2">
       <div className="columns-2 gap-4">
         <Image

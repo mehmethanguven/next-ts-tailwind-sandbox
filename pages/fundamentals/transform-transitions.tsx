@@ -7,7 +7,7 @@ const TransformTransitions = () => {
       <Card
         title="transform & transitions"
         isBack={true}
-        classNameTitle="text-3xl text-blue-500 dark:text-white"
+        classNameTitle="text-2xl text-slate-700 dark:text-white"
       />
       <Card>
         <button className="hover:bg-blue-70 m-24 rounded bg-blue-500 px-8 py-2 text-white dark:bg-slate-500">

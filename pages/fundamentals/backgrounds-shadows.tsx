@@ -7,7 +7,7 @@ const BackgroundsShadows = () => {
       <Card
         title="background classes"
         isBack={true}
-        classNameTitle="text-3xl text-blue-500 dark:text-white"
+        classNameTitle="text-2xl text-slate-700 dark:text-white"
       >
         <div
           className="h-64 w-72 bg-blue-500 bg-cover bg-center bg-no-repeat"

@@ -7,7 +7,7 @@ const Sizing = () => {
       <Card
         title="widths"
         isBack={true}
-        classNameTitle="text-3xl text-blue-500 dark:text-white"
+        classNameTitle="text-2xl text-slate-700 dark:text-white"
       >
         <div className="my-2 w-0 bg-black px-2 text-white">w-0</div>
         <div className="my-2 w-1 bg-black px-2 text-white">w-1</div>

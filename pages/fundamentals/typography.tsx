@@ -6,7 +6,7 @@ const Typography = () => {
     <>
       <Card
         isBack={true}
-        classNameTitle="text-3xl text-blue-500 dark:text-white"
+        classNameTitle="text-2xl text-slate-700 dark:text-white"
         title="Typography"
       ></Card>
       <Card title="font-family">
@@ -21,7 +21,7 @@ const Typography = () => {
         <p className="text-lg">Tailwind</p>
         <p className="text-xl">Tailwind</p>
         <p className="text-2xl">Tailwind</p>
-        <p className="text-3xl">Tailwind</p>
+        <p className="text-2xl">Tailwind</p>
         <p className="text-4xl">Tailwind</p>
         <p className="text-5xl">Tailwind</p>
         <p className="text-6xl">Tailwind</p>

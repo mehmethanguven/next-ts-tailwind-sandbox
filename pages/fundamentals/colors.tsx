@@ -9,7 +9,7 @@ const Colors = () => {
       <Card
         title="colors"
         isBack={true}
-        classNameTitle="text-3xl text-blue-500 dark:text-white"
+        classNameTitle="text-2xl text-slate-700 dark:text-white"
       />
       {/* <!-- Default colors --> */}
       {/* <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  --> */}
@@ -111,7 +111,7 @@ const Colors = () => {
       <Card className="flex flex-col gap-3" title="custom checkboxes">
         <div className="flex flex-wrap">
           <Checkbox labelTitle="Option 1" className="text-red-500" />
-          <Checkbox labelTitle="Option 2" className="text-blue-500" />
+          <Checkbox labelTitle="Option 2" className="text-slate-700" />
           <Checkbox labelTitle="Option 3" className="text-purple-500" />
         </div>
       </Card>

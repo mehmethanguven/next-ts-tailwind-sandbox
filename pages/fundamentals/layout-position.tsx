@@ -8,7 +8,7 @@ const LayoutPosition = () => {
       <Card
         title="positioning"
         isBack={true}
-        classNameTitle="text-3xl text-blue-500 dark:text-white"
+        classNameTitle="text-2xl text-slate-700 dark:text-white"
       >
         <div className="relative h-12 w-full bg-red-200">
           <p>Parent element</p>
@@ -65,7 +65,7 @@ const LayoutPosition = () => {
       <Card title="display classes">
         <div className="w-full">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-          <span className="inline text-blue-500">
+          <span className="inline text-slate-700">
             This is display inline and will wrap normally
           </span>
           sapiente ut rerum esse ullam provident, fugit

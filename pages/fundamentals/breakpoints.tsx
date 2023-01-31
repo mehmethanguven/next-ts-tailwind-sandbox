@@ -6,7 +6,7 @@ const Breakpoints = () => {
 
   return (
     <div>
-      <Card title="breakpoints" isBack={true} className="text-3xl" />
+      <Card title="breakpoints" isBack={true} className="text-2xl" />
       <Card title="change colors">
         <div className="flex h-96 resize items-center justify-center gap-5 rounded-lg bg-black p-4 text-white sm:bg-green-800 md:bg-blue-500 lg:bg-yellow-500 xl:bg-purple-800 2xl:bg-red-500">
           <h1 className="text-4xl">Width: {width}</h1>

@@ -4,11 +4,11 @@ import React from 'react'
 const DarkMode = () => {
   return (
     <div>
-      <Card title="dark mode" isBack={true} className="text-3xl" />
+      <Card title="dark mode" isBack={true} className="text-2xl" />
 
       <Card>
         <div className="container mx-auto mt-10 rounded-lg px-6 py-8 shadow-xl ring-1 ring-slate-900/5 dark:ring-white">
-          <h3 className="text-base font-bold tracking-tight text-blue-500 dark:text-white">
+          <h3 className="text-base font-bold tracking-tight text-slate-700 dark:text-white">
             Writes Upside-Down
           </h3>
           <p className="mt-2 text-sm ">

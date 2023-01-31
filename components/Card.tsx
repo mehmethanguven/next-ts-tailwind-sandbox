@@ -16,7 +16,7 @@ type Props = {
 const Card = ({
   className,
   classNameSubtitle,
-  classNameTitle = 'text-blue-500 dark:text-white',
+  classNameTitle = 'text-slate-700 dark:text-white',
   children,
   title,
   subtitle,
@@ -35,7 +35,7 @@ const Card = ({
             {isBack && (
               <Link href="/">
                 <ArrowLeftIcon
-                  className="h-6 w-6 text-blue-500 dark:text-white"
+                  className="h-6 w-6 text-slate-700 dark:text-white"
                   aria-hidden="true"
                 />
               </Link>

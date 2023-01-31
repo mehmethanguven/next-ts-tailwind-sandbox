@@ -5,7 +5,7 @@ const Grid = () => {
     <div>
       <Card
         title="grid"
-        classNameTitle="text-3xl text-blue-500 dark:text-white"
+        classNameTitle="text-2xl text-slate-700 dark:text-white"
         isBack={true}
       />
       <Card title="grid cols and rows">

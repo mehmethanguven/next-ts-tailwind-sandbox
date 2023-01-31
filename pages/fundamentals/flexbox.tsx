@@ -6,7 +6,7 @@ const Flexbox = () => {
       <Card
         title="flexbox"
         isBack={true}
-        classNameTitle="text-3xl text-blue-500 dark:text-white"
+        classNameTitle="text-2xl text-slate-700 dark:text-white"
       />
       <Card title="flex and alignment">
         <div className="w-100 flex h-72 flex-wrap items-center justify-around bg-gray-100">

@@ -7,7 +7,7 @@ const Filters = () => {
       <Card
         title="filters"
         isBack={true}
-        classNameTitle="text-3xl text-blue-500 dark:text-white"
+        classNameTitle="text-2xl text-slate-700 dark:text-white"
       />
       <Card title="blurs" className="gap-4">
         <label>blur-none</label>

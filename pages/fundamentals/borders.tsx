@@ -6,7 +6,7 @@ const Borders = () => {
       <Card
         title="border"
         isBack={true}
-        classNameTitle="text-3xl text-blue-500 dark:text-white"
+        classNameTitle="text-2xl text-slate-700 dark:text-white"
         className="flex flex-wrap justify-center"
       >
         <div className="m-3 w-96 border p-5">
