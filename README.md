@@ -1,9 +1,12 @@
 This is a Next.js Tailwind CSS Sandbox (Next.js - Typescript - Jest - Cypress - Tailwindcss - Eslint - Prettier - Lintstaged - Hasky)
-ref: [Tailwind CSS From Scratch | Learn By Building Projects](https://www.udemy.com/course/tailwind-from-scratch/)
+
+## Reference
+
+[Tailwind CSS From Scratch | Learn By Building Projects](https://www.udemy.com/course/tailwind-from-scratch/)
 
 ## Live on Vercel
 
-<a href="https://next-ts-tailwind-sandbox-h6vlyyn59-mehmethanguven.vercel.app/" target="_blank">Live Preview</a>
+<a href="https://next-ts-tailwind-sandbox.vercel.app/" target="_blank">Live Preview</a>
 
 ## Getting Started
 
